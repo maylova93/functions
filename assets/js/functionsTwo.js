@@ -1,12 +1,11 @@
-
-
 // her kaldes, eller invokes din funktion
 helloWorld("hello world, med parameter");
 
 // her skal du skrive din funktion
-function helloWorld(n1) {
-    console.log("hello world, med parameter");
+function helloWorld(minVærdi,minAndenValue){
+ let sum=minVærdi + minAndenValue
+//  let minAndenValue=2
+
+    console.log('Værdi 1' + minVærdi);
 }
-function n1() {
-    return 1;
-}
+
